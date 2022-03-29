@@ -17,7 +17,7 @@ export default function Topbar() {
              </ul>
          </div>
          <div className="topRight">
-             <img className="topImg" src={pimg} alt="hello" srcset="" />
+             <img className="topImg" src={pimg } alt="hello" srcset="" />
              <SearchIcon className="searchicon"/>
          </div>
          
