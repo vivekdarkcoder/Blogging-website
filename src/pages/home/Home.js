@@ -1,14 +1,20 @@
 import React from 'react'
 import Hearder from '../../header/Hearder';
+import Posts from '../../posts/Posts';
+import Sidebar from '../../sidebar/Sidebar';
 
-import Topbar from '../../topbar/Topbar';
 import "./home.css";
 
 export default function Home() {
   return (
-    <div className="home">
+    <>
     <Hearder/>
-     Homepage
+    <div className="home">
+    <Posts/>
+    <Sidebar/>
+     
     </div>
+    </>
+    
   )
 }
