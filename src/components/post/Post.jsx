@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "./post.css";
 
 export default function Post({img}) {
@@ -12,20 +12,20 @@ export default function Post({img}) {
       <div className="postInfo">
         <div className="postCats">
           <span className="postCat">
-            <Link className="link" to="/posts?cat=Music">
+            <li className="li" to="/posts?cat=Music">
               Music
-            </Link>
+            </li>
           </span>
           <span className="postCat">
-            <Link className="link" to="/posts?cat=Music">
+            <li className="li" to="/posts?cat=Music">
               Life
-            </Link>
+            </li>
           </span>
         </div>
         <span className="postTitle">
-          <Link to="/post/abc" className="link">
+          <li to="/post/abc" className="li">
             Lorem ipsum dolor sit amet
-          </Link>
+          </li>
         </span>
         <hr />
         <span className="postDate">1 hour ago</span>
