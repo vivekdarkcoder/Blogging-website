@@ -1,6 +1,6 @@
 import React from 'react'
 import "./header.css";
-import pimg from '../topbar/img1.jpg';
+import pimg from '../components/topbar/img1.jpg';
 export default function Hearder () {
   return (
     <div>
