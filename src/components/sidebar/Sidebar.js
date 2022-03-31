@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./sidebar.css";
 
 export default function Sidebar() {
@@ -17,38 +17,38 @@ export default function Sidebar() {
       </div>
       <div className="sidebarItem">
         <span className="sidebarTitle">CATEGORIES</span>
-        {/* <ul className="sidebarList">
+        <ul className="sidebarList">
           <li className="sidebarListItem">
-            <NavLink className="link" to="/posts?cat=Life">
+            <Link className="link" to="/posts?cat=Life">
               Life
-            </NavLink>
+            </Link>
           </li>
           <li className="sidebarListItem">
-            <NavLink className="link" to="/posts?cat=Music">
+            <Link className="link" to="/posts?cat=Music">
               Music
-            </NavLink>
+            </Link>
           </li>
           <li className="sidebarListItem">
-            <NavLink className="link" to="/posts?cat=Sport">
+            <Link className="link" to="/posts?cat=Sport">
               Sport
-            </NavLink>
+            </Link>
           </li>
           <li className="sidebarListItem">
-            <NavLink className="link" to="/posts?cat=Style">
+            <Link className="link" to="/posts?cat=Style">
               Style
-            </NavLink>
+            </Link>
           </li>
           <li className="sidebarListItem">
-            <NavLink className="link" to="/posts?cat=Tech">
+            <Link className="link" to="/posts?cat=Tech">
               Tech
-            </NavLink>
+            </Link>
           </li>
           <li className="sidebarListItem">
-            <NavLink className="link" to="/posts?cat=Cinema">
+            <Link className="link" to="/posts?cat=Cinema">
               Cinema
-            </NavLink>
+            </Link>
           </li>
-        </ul> */}
+        </ul>
       </div>
       <div className="sidebarItem">
         <span className="sidebarTitle">FOLLOW US</span>
