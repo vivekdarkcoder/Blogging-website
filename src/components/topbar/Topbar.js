@@ -6,7 +6,7 @@ import {Link } from "react-router-dom";
 import SearchIcon from '@mui/icons-material/Search';
 
 export default function Topbar() {
-  const user = false;
+  const user = true;
   return (
     <div className="Top">
       <div className="topLeft">Mr.darkcoder</div>
